@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Easy memoization of virgilio actions.",
   "license": "MIT",
-  "main": "lib/virgilioCache.js",
+  "main": "lib/virgilio-cache.js",
   "repository": {
-      "type": "git",
-      "url": "git://github.com/jwoudenberg/virgilio-cache.git"
+    "type": "git",
+    "url": "git://github.com/jwoudenberg/virgilio-cache.git"
   },
   "author": {
     "name": "Jasper Woudenberg",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://api.github.com/repos/jwoudenberg/virgilio-cache/issues"
   },
-  "homepage": "https://github.com/jwoudenberg/virgilio-cache"
+  "homepage": "https://github.com/jwoudenberg/virgilio-cache",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-exit": "0.0.2",
+    "gulp-help": "^0.1.11",
+    "gulp-mocha": "^0.5.2",
+    "must": "^0.12.0",
+    "virgilio": "^0.6.1"
+  },
+  "dependencies": {
+    "murmurhash-js": "^1.0.0"
+  }
 }
