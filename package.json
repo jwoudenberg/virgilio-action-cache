@@ -1,0 +1,20 @@
+{
+  "name": "virgilio-cache",
+  "version": "0.1.0",
+  "description": "Easy memoization of virgilio actions.",
+  "license": "MIT",
+  "main": "lib/virgilioCache.js",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/jwoudenberg/virgilio-cache.git"
+  },
+  "author": {
+    "name": "Jasper Woudenberg",
+    "email": "mail@jasperwoudenberg.com",
+    "url": "https://github.com/jwoudenberg"
+  },
+  "bugs": {
+    "url": "https://api.github.com/repos/jwoudenberg/virgilio-cache/issues"
+  },
+  "homepage": "https://github.com/jwoudenberg/virgilio-cache"
+}
