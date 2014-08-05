@@ -1,4 +1,5 @@
-var virgilioCache = require('../../');
+var virgilioActionCache = require('../../');
+var virgilioCache = require('virgilio-redis').virgilioCache;
 
 var options = {
     logger: {
@@ -12,7 +13,8 @@ var virgilio = new Virgilio(options);
 
 virgilio
     .loadModule(virgilioCache)
-    .defineAction('add', add, { cache: true });
+    .loadModule(virgilioActionCache)
+    .defineAction('add', add, { cache: 1 });
 
 virgilio.callCounter = 0;
 

@@ -14,12 +14,13 @@ describe('caching tests', function() {
         virgilio.execute('add', 2, 5)
             .then(equalsSeven)
             .then(function() {
-                return virgilio.execute('add', 2, 5);
+                return virgilio.execute('add', 1, 6);
             })
             .then(equalsSeven)
             .then(function() {
                 virgilio.callCounter.must.equal(1);
                 done();
-            });
+            })
+            .catch(done);
     });
 });
