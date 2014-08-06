@@ -1,4 +1,5 @@
 # virgilio-cache
+[![NPM version](https://badge.fury.io/js/virgilio-action-cache.svg)](http://badge.fury.io/js/virgilio-action-cache)
 
 Easy memoization of virgilio actions.
 
