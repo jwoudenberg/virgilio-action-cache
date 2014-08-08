@@ -21,7 +21,10 @@
     "gulp": "^3.8.7",
     "gulp-exit": "0.0.2",
     "gulp-help": "^0.1.11",
+    "gulp-istanbul": "^0.2.0",
+    "gulp-jshint": "^1.6.3",
     "gulp-mocha": "^0.5.2",
+    "jshint-stylish": "^0.2.0",
     "must": "^0.12.0",
     "virgilio": "^0.6.1",
     "virgilio-redis": "^0.1.0"
