@@ -2,6 +2,10 @@ var virgilioActionCache = require('../../');
 var virgilioCache = require('virgilio-redis').virgilioCache;
 
 var options = {
+    redis: {
+        host: process.env.WERCKER_REDIS_HOST,
+        port: process.env.WERCKER_REDIS_PORT
+    },
     logger: {
         name: 'virgilio',
         streams: []
