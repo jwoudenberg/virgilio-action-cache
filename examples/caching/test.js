@@ -2,8 +2,11 @@
 var virgilio = require('./');
 
 describe('caching tests', function() {
-    before(function() {
+    before(function(done) {
         virgilio.callCounter = 0;
+        virgilio.execute('redis.flushdb').then(function() {
+            done();
+        });
     });
 
     function equalsSeven(result) {
@@ -14,7 +17,7 @@ describe('caching tests', function() {
         virgilio.execute('add', 2, 5)
             .then(equalsSeven)
             .then(function() {
-                return virgilio.execute('add', 1, 6);
+                return virgilio.execute('add', 2, 5);
             })
             .then(equalsSeven)
             .then(function() {
