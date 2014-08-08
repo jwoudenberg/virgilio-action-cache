@@ -1,6 +1,6 @@
 {
   "name": "virgilio-action-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy memoization of virgilio actions.",
   "license": "MIT",
   "main": "lib/virgilio-action-cache.js",
