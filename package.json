@@ -4,6 +4,9 @@
   "description": "Easy memoization of virgilio actions.",
   "license": "MIT",
   "main": "lib/virgilio-action-cache.js",
+  "scripts": {
+    "test": "gulp test"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jwoudenberg/virgilio-action-cache.git"
